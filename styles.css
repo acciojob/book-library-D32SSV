@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+h2 {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.book {
+    background-color: #ffffff;
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+.book div {
+    display: flex;    
+    justify-content: center;
+}
+
+p {
+    color: #777777;
+}
+
+button {
+    background-color:#2ecc71;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+body > div {
+    border: solid lightgray;
+}
